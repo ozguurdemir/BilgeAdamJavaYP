@@ -1,3 +1,5 @@
+package Assigment1;
+
 public class Mouse extends Product
     {
         private String sensor;

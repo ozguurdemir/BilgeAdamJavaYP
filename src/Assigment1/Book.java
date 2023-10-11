@@ -1,3 +1,5 @@
+package Assigment1;
+
 public class Book extends Product
     {
         private int pageNumber;

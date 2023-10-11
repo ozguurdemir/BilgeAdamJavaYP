@@ -1,0 +1,9 @@
+
+7
+java:S1220""Move this file to a named package.8µÑ±1
+V
+java:S5993"9Change the visibility of this constructor to "protected".(ôŸÇì8“µÑ±1
+L	java:S106"+Replace this use of System.out by a logger.(’€±Öùÿÿÿÿ8”µÑ±1
+G	java:S106"+Replace this use of System.out by a logger.(Š«—˜8”µÑ±1
+C
+java:S1068"&Remove this unused "id" private field.(æ¨ç†8•µÑ±1

@@ -1,3 +1,5 @@
+package Assigment1;
+
 public class Keyboard extends Product
     {
         private String type;

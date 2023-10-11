@@ -1,0 +1,10 @@
+
+7
+java:S1220""Move this file to a named package.8ÄÍÑ±1
+W
+java:S1854":Remove this useless assignment to local variable "result".(ºƒ£¬8©Äşï±1
+H
+java:S1481"+Remove this unused "result" local variable.(ºƒ£¬8ºÄşï±1
+G	java:S106"+Replace this use of System.err by a logger.(®ƒô°8¼Äşï±1
+]	java:S125"<This block of commented-out lines of code should be removed.(±§Æşÿÿÿÿ8¿Äşï±1
+G	java:S106"+Replace this use of System.err by a logger.(Ê£Ù®8ÀÄşï±1

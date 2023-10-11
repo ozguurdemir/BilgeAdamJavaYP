@@ -1,3 +1,5 @@
+package Assigment1;
+
 public class Customer
     {
         private String id;
