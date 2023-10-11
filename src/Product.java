@@ -4,11 +4,16 @@ public abstract class Product
         private String description;
         private int price;
 
-        public int buyProduct(Product p, Customer c)
+        public void setPrice(int price)
             {
-                if (c.getMoney()>p.price)
+                this.price = price;
+            }
+
+        public int buyProduct(Customer c)
+            {
+                if (c.getMoney()>price)
                     {
-                        c.setMoney(c.getMoney()-p.price);
+                        c.setMoney(c.getMoney()-price);
                         System.out.println("Ürün satıldı");
                     }
                 else

@@ -12,6 +12,12 @@ public class Mouse extends Product
                 this.sensor = sensor;
             }
 
+        @Override
+        public int buyProduct(Customer c)
+            {
+                return super.buyProduct(c);
+            }
+
         public Mouse(String id, String description, int price)
             {
                 super(id, description, price);

@@ -4,15 +4,16 @@ public class Keyboard extends Product
         private final int DISCOUNT;
 
         @Override
-        public int buyProduct(Product p, Customer c)
+        public int buyProduct(Customer c)
             {
-                if (p.getDescription()=="Corsair")
+                if (this.getDescription().equalsIgnoreCase("Corsair"))
                     {
-                        return super.buyProduct(p, c) + DISCOUNT;
+                        this.setPrice(this.getPrice()-DISCOUNT);
+                        return super.buyProduct(c);
                     }
                 else
                     {
-                        return super.buyProduct(p, c);
+                        return super.buyProduct(c);
                     }
 
             }
