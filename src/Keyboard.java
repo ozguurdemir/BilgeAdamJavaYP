@@ -17,7 +17,7 @@ public class Keyboard extends Product
             {
                 if (p.getDescription()=="Corsair")
                     {
-                        return super.buyProduct(p, c) - 20;
+                        return super.buyProduct(p, c) + 20;
                     }
                 else
                     {
