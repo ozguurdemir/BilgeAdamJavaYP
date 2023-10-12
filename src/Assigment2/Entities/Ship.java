@@ -1,4 +1,6 @@
-package Assigment2;
+package Assigment2.Entities;
+
+import Assigment2.Services.Abstract.Ticket;
 
 public class Ship extends Vehicle implements Ticket
     {

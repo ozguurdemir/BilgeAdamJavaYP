@@ -1,4 +1,6 @@
-package Assigment2;
+package Assigment2.Services.Concrete;
+
+import Assigment2.Services.Abstract.Ticket;
 
 public class Biletall implements Ticket
     {

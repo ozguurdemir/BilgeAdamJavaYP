@@ -1,4 +1,4 @@
-package Assigment2;
+package Assigment2.Entities;
 
 public abstract class Vehicle
     {

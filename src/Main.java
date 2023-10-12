@@ -1,4 +1,9 @@
-import Assigment2.*;
+import Assigment2.Entities.Coach;
+import Assigment2.Entities.Customer1;
+import Assigment2.Entities.Plane;
+import Assigment2.Entities.Ship;
+import Assigment2.Services.Concrete.Booking;
+import Assigment2.Services.Concrete.Obilet;
 
 public class Main
     {
@@ -24,7 +29,7 @@ public class Main
                 Plane plane = new Plane(1,300,1600,"TK166","İstanbul",true);
                 Coach coach = new Coach(2,47,350,false);
                 Ship ship = new Ship(3,1300,2000,"Sydney");
-                Booking booking = new Booking(new SkyScanner());
+                Booking booking = new Booking(new Obilet());
                 booking.book(customer,plane);
                 plane.serveFood();
             }

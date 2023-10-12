@@ -1,4 +1,8 @@
-package Assigment2;
+package Assigment2.Services.Concrete;
+
+import Assigment2.Entities.Customer1;
+import Assigment2.Entities.Vehicle;
+import Assigment2.Services.Abstract.Ticket;
 
 public class Booking
     {
