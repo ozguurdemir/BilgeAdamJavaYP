@@ -2,11 +2,11 @@
 7
 java:S1220""Move this file to a named package.8‡Ô™þ±1
 U
-java:S1854"8Remove this useless assignment to local variable "ship".(£ù”„8‹Ô™þ±1
+java:S1854"8Remove this useless assignment to local variable "ship".(£ù”„8‹Ô™þ±1
 V
-java:S1854"9Remove this useless assignment to local variable "coach".(´Ò­à8‹Ô™þ±1
-W	java:S125"<This block of commented-out lines of code should be removed.(¦³¢~8ŒÔ™þ±1
+java:S1854"9Remove this useless assignment to local variable "coach".(´Ò­à8‹Ô™þ±1
+W	java:S125"<This block of commented-out lines of code should be removed.(¦³¢~8ŒÔ™þ±1
 G
-java:S1481"*Remove this unused "coach" local variable.(´Ò­à8ŒÔ™þ±1
+java:S1481"*Remove this unused "coach" local variable.(´Ò­à8ŒÔ™þ±1
 F
-java:S1481")Remove this unused "ship" local variable.(£ù”„8ŒÔ™þ±1
+java:S1481")Remove this unused "ship" local variable.(£ù”„8ŒÔ™þ±1
